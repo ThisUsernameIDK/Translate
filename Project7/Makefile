@@ -32,7 +32,8 @@ $(PARSEDIR)/$(MJ_PARSER).java: $(PARSEDIR)/$(MJ_PARSER).jj
 
 %.class : %.java
 	${JAVAC} ${JFLAGS} $<
-
+all:
+	javac Translate/*.java
 clean:
 	rm -f $(PARSESRC:.java=.class) \
 		$(MJ_JAVACCGEN) $(MJ_JAVACCGEN:.java=.class)\
