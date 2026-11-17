@@ -1,6 +1,12 @@
-/* Copyright (C) 1997-2003, Purdue Research Foundation of Purdue University.
+/*Copyright (C) 1997-2003, Purdue Research Foundation of Purdue University.
  * All rights reserved.  */
-
+/**
+ * COSC 4400 - Project #
+ * Explain briefly the functionality of the program.
+ * @authors Alejandro Aguilar-Carrera, Owen Fingerhut
+ * Instructor Dr. Brylow
+ * TA-BOT:MAILTO alejandro.aguilar-carrera@arquette.edu owen.fingerhut@marquette.edu
+ */
 package Translate;
 import java.io.PrintWriter;
 import java.util.Iterator;
